@@ -1,12 +1,15 @@
 # BangleDefect
 Using machine learning detect "Defect in Bangle Production"
 
+`
+Creted machine learning model to detect bangle production defect using YOLOV8
+Dataset is downloaded from Kaggle
+Image is annotated using makesense.ai
+`
+`Downlod Model File from this Google Drive Link [https://drive.google.com/file/d/1YuzogmTjgnKudR2JvqQ6yvBPXpI81BAB/view?usp=sharing]`
 
-### Creted machine learning model to detect bangle production defect using YOLOV8
-### Dataset is downloaded from Kaggle
-### Image is annotated using makesense.ai
-
-##### Downlod Model File from this Google Drive Link [https://drive.google.com/file/d/1YuzogmTjgnKudR2JvqQ6yvBPXpI81BAB/view?usp=sharing]
+> How to run file
+> python main.py
 
 In main.py change the Image path to get the Bangle Result image with defected part annotations
 `makePred(ImagePath)`  This Funcion will save the new result image named as ResultImage.jpg
